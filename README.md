@@ -1,6 +1,6 @@
-# pr-title-validator
+# Netsells PR Title Validator Bot
 
-> A GitHub App built with [Probot](https://github.com/probot/probot) that A Probot app
+> A GitHub App built with [Probot](https://github.com/probot/probot) that validates PR titles via a github check in accordance with our organisation guidelines.
 
 ## Setup
 

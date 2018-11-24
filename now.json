@@ -1,0 +1,11 @@
+{
+    "version": 1,
+    "name": "nodejs",
+    "alias": "netsells-pr-title-validator",
+    "env": {
+        "NODE_ENV": "production",
+        "APP_ID": "@app-id",
+        "WEBHOOK_SECRET": "@webhook-secret",
+        "PRIVATE_KEY": "@private-key-base64"
+    }
+}

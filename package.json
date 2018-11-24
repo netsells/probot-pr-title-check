@@ -1,12 +1,12 @@
 {
-  "name": "pr-title-validator",
+  "name": "probot-pr-title-check",
   "version": "1.0.0",
-  "description": "A Probot app",
+  "description": "Probot bot for validating Pull Request titles",
   "author": "Sam Turrell <sam.turrell@netsells.co.uk>",
   "license": "ISC",
-  "repository": "https://github.com//pr-title-validator.git",
-  "homepage": "https://github.com//pr-title-validator",
-  "bugs": "https://github.com//pr-title-validator/issues",
+  "repository": "https://github.com/netsells/probot-pr-title-check.git",
+  "homepage": "https://github.com/netsells/probot-pr-title-check",
+  "bugs": "https://github.com/netsells/probot-pr-title-check/issues",
   "keywords": [
     "probot",
     "github",
@@ -18,7 +18,7 @@
     "lint": "eslint ./**/*.js --fix",
     "test": "jest",
     "test:watch": "jest --watch --notify --notifyMode=change --coverage",
-    "deploy": "now -e APP_ID=Iv1.656026170f0ededa -e WEBHOOK_SECRET=\"$(cat ./.app-secret.txt)\" -e NODE_ENV=production -e PRIVATE_KEY=\"$(cat ./*.private-key.pem | base64)\""
+    "deploy": "now"
   },
   "dependencies": {
     "probot": "^7.2.0"

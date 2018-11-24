@@ -17,7 +17,8 @@
     "start": "probot run ./index.js",
     "lint": "eslint ./**/*.js --fix",
     "test": "jest",
-    "test:watch": "jest --watch --notify --notifyMode=change --coverage"
+    "test:watch": "jest --watch --notify --notifyMode=change --coverage",
+    "deploy": "now -e APP_ID=Iv1.656026170f0ededa -e WEBHOOK_SECRET=\"$(cat ./.app-secret.txt)\" -e NODE_ENV=production -e PRIVATE_KEY=\"$(cat ./*.private-key.pem | base64)\""
   },
   "dependencies": {
     "probot": "^7.2.0"

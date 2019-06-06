@@ -26,7 +26,7 @@
   "devDependencies": {
     "@netsells/eslint-config": "^1.8.0",
     "babel-eslint": "^10.0.1",
-    "eslint": "^5.9.0",
+    "eslint": "^5.16.0",
     "jest": "^22.4.3",
     "nock": "^10.0.0",
     "nodemon": "^1.17.2",

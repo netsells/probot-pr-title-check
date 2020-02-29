@@ -1,5 +1,5 @@
 {
-  "name": "probot-pr-title-check",
+  "name": "@netsells/probot-pr-title-check",
   "version": "1.0.0",
   "description": "Probot bot for validating Pull Request titles",
   "author": "Sam Turrell <sam.turrell@netsells.co.uk>",
